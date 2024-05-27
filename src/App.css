@@ -29,8 +29,8 @@ img {
   margin: 2em;
 }
 .recipe-page-title .recipe-page-header {
-  font-size: 2em;
-  color: hsl(30, 10%, 34%);
+  font-size: 1.5em;
+  color: hsl(24, 5%, 18%);
   padding: 5px 0;
 }
 h2,
@@ -141,6 +141,9 @@ tr:last-child td {
 
   .recipe-information {
     margin: 0;
+  }
+  .recipe-page-title .recipe-page-header {
+    font-size: 3em;
   }
   .attribution {
     display: block;
