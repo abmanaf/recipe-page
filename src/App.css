@@ -129,7 +129,7 @@ tr:last-child td {
 
 @media only screen and (min-width: 1024px) {
   .recipe-container {
-    width: 46rem;
+    width: 46.5rem;
     background-color: hsl(0, 0%, 100%);
     margin: 7.7rem 22rem;
     border-radius: 1.1rem;
