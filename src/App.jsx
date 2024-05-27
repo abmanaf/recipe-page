@@ -4,6 +4,8 @@ import './App.css';
 
 function App() {
   return (
+    <>
+
     <div className='recipe-container'>
       <div>
         <div>
@@ -77,6 +79,11 @@ function App() {
         </div>
       </div>
     </div>
+    <div className="attribution" style={{textAlign: 'center'}}>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/abmanaf">Alibaba</a>.
+  </div>
+    </>
   );
 }
 
