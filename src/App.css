@@ -131,7 +131,7 @@ tr:last-child td {
   .recipe-container {
     width: 46.5rem;
     background-color: hsl(0, 0%, 100%);
-    margin: 7.7rem 22rem;
+    margin: 5rem 22rem;
     border-radius: 1.1rem;
     padding: 2.5rem;
   }
