@@ -126,6 +126,9 @@ tr:last-child td {
   color: hsl(14, 45%, 36%);
   font-weight: 800;
 }
+.attribution {
+  display: none;
+}
 
 @media only screen and (min-width: 1024px) {
   .recipe-container {
@@ -138,5 +141,8 @@ tr:last-child td {
 
   .recipe-information {
     margin: 0;
+  }
+  .attribution {
+    display: block;
   }
 }
