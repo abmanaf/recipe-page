@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Young", sans-serif;
+}
+
+.recipe-container {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+.recipe-information {
+  margin: 2em;
+}
+.recipe-page-title .recipe-page-header {
+  font-size: 2em;
+  color: hsl(30, 10%, 34%);
+  padding: 5px 0;
+}
+h2,
+h3 {
+  margin-top: 0;
+}
+
+ul {
+  padding-left: 1em;
+}
+li {
+  margin-bottom: 15px;
+}
+
+.preparation-duration {
+  background-color: hsl(330, 100%, 98%);
+  padding: 1em;
+  border-radius: 5px;
+  margin-bottom: 2em;
+}
+
+.preparation-duration p {
+  color: hsl(332, 51%, 32%);
+  font-weight: 800;
+}
+
+.preparation-duration li {
+  color: hsl(30, 10%, 34%);
+}
+
+.ingredients h3,
+.instructions h3,
+.nutritions h3 {
+  color: hsl(14, 45%, 36%);
+}
+.ingredients {
+  margin-bottom: 2em;
+}
+.instructions {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.ingredients li {
+  color: hsl(30, 10%, 34%);
+}
+
+.instructions ul {
+  padding-left: 1.5em;
+}
+
+.instructions ul li {
+  list-style-type: decimal;
+  position: relative;
+  color: hsl(30, 10%, 34%);
+}
+/*
+.instructions ul li::before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -1.5em;
+  color: hsl(14, 45%, 36%);
+}
+*/
+.ingredients ul li::marker,
+.preparation-duration ul li::marker,
+.instructions ul li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 900;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0.5em 1em;
+  border-bottom: 1px solid #ccc;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+.nutritions {
+  margin-top: 2em;
+}
+.nutritions p,
+.first-column {
+  color: hsl(30, 10%, 34%);
+}
+.nutritions .second-column {
+  color: hsl(14, 45%, 36%);
+  font-weight: 800;
+}
+
+@media only screen and (min-width: 1024px) {
+  .recipe-container {
+    width: 46rem;
+    background-color: hsl(0, 0%, 100%);
+    margin: 7.7rem 22rem;
+    border-radius: 1.1rem;
+    padding: 2.5rem;
+  }
+
+  .recipe-information {
+    margin: 0;
+  }
+}
