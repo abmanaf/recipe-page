@@ -92,7 +92,6 @@ li {
   counter-increment: li;
   position: absolute;
   left: -1.5em;
-  color: hsl(14, 45%, 36%);
 }
 */
 .ingredients ul li::marker,
