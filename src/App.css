@@ -91,7 +91,6 @@ li {
   content: counter(li);
   counter-increment: li;
   position: absolute;
-  left: -1.5em;
 }
 */
 .ingredients ul li::marker,
