@@ -89,7 +89,6 @@ li {
 /*
 .instructions ul li::before {
   content: counter(li);
-  counter-increment: li;
   position: absolute;
 }
 */
