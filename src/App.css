@@ -89,7 +89,6 @@ li {
 /*
 .instructions ul li::before {
   content: counter(li);
-  position: absolute;
 }
 */
 .ingredients ul li::marker,
