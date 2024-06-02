@@ -88,7 +88,6 @@ li {
 }
 /*
 .instructions ul li::before {
-  content: counter(li);
 }
 */
 .ingredients ul li::marker,
