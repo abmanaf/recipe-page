@@ -86,10 +86,6 @@ li {
   position: relative;
   color: hsl(30, 10%, 34%);
 }
-/*
-.instructions ul li::before {
-}
-*/
 .ingredients ul li::marker,
 .preparation-duration ul li::marker,
 .instructions ul li::marker {
